@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -22,6 +22,31 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    transition: background-color 0.4s ease-in-out;
+    -webkit-transition: background-color 0.4s ease-in-out;
+    -moz-transition: background-color 0.4s ease-in-out;
+    -ms-transition: background-color 0.4s ease-in-out;
+    -o-transition: background-color 0.4s ease-in-out;
+}
+
+header.scrolled{
+    background-color: gray;
+    opacity: 0.98;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.4s ease-in-out;
+    -webkit-transition: color 0.4s ease-in-out;
+    -moz-transition: color 0.4s ease-in-out;
+    -ms-transition: color 0.4s ease-in-out;
+    -o-transition: color 0.4s ease-in-out;
+}
+
+header.scrolled nav a{
+    color: black;
 }
 
 .logo{
@@ -42,7 +67,7 @@ header{
 
 .navbar a::before{
     content: '';
-    position: absolute;
+    position: sticky;
     top: 100%;
     left: 0;
     width: 0;
@@ -56,11 +81,24 @@ header{
 }
 
 #banner{
-    margin-top: 10%;
+    margin-top: 5%;
     border: transparent;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+
+div{
+    display: inline-block;
+}
+
+#anthonyLogoIMG{
+    float: left;
+}
+
+#p-desc{
+    margin-top: 12%;
+    padding-right: 10%;
 }
