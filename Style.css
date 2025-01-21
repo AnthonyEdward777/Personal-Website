@@ -9,6 +9,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    color: white;
 }
 
 header{
@@ -88,7 +89,7 @@ header nav a{
     width: 100%;
 }
 #banner{
-    margin-top: 5%;
+    margin-top: 2%;
     border: transparent;
     border-radius: 10px;
     -webkit-border-radius: 10px;
