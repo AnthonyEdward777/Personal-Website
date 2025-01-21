@@ -88,6 +88,22 @@ header nav a{
 .navbar a:hover::before{
     width: 100%;
 }
+
+div{
+    display: inline-block;
+    margin: 3%;
+}
+
+h1{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer{
+    margin-top: 10%;
+}
+/* Index */
+
 #banner{
     margin-top: 2%;
     border: transparent;
@@ -96,10 +112,6 @@ header nav a{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-}
-
-div{
-    display: inline-block;
 }
 
 #anthonyLogoIMG{
@@ -111,6 +123,20 @@ div{
     padding-right: 10%;
 }
 
-h1{
-    margin: 40px;
+/* aboutMe */
+
+#anthonyAboutME{
+    float: left;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-right: 3%;
+    margin-top: 3%;
+}
+
+#p-aboutMe{
+    text-align: justify;
+    line-height: 35px;
 }
