@@ -190,10 +190,12 @@ footer{
     border: gray solid 5px;
     width: 50%;
     color: black;
-    font-size: 28px;
+    font-size: 26px;
 }
 
-#copy-button, #copy-button1, #copy-button2, #copy-button3, #copy-button4, #copy-button5, #copy-button6{
+#copy-button, #copy-button1, #copy-button2, #copy-button3, #copy-button4, #copy-button5,
+ #copy-button6, #copy-button7, #copy-button8, #copy-button9, #copy-button10,
+  #copy-button11, #copy-button12{
     background: transparent;
     border-radius: 5px;
     padding: 0.5%;
@@ -209,7 +211,10 @@ footer{
     cursor: pointer;
 }
 
-#copy-button:hover ,#copy-button1:hover, #copy-button2:hover, #copy-button3:hover, #copy-button4:hover, #copy-button5:hover, #copy-button6:hover{
+#copy-button:hover ,#copy-button1:hover, #copy-button2:hover, #copy-button3:hover,
+#copy-button4:hover, #copy-button5:hover, #copy-button6:hover, #copy-button7:hover,
+ #copy-button8:hover, #copy-button9:hover, #copy-button10:hover, #copy-button11:hover,
+  #copy-button12:hover{
     background: rgb(189, 188, 188);
     transition: 1s;
     opacity: 100%;
