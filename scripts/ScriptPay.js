@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     copybutton13.onclick = function(){
-        navigator.clipboard.writeText("ANTHONY EHAB HANY EDWARD FARIDt");
+        navigator.clipboard.writeText("ANTHONY EHAB HANY EDWARD FARID");
     }
 
     copybutton14.onclick = function(){
