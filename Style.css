@@ -129,6 +129,41 @@ footer{
     color: white;
 }
 
+#copy-button, #copy-button1, #copy-button2, #copy-button3, #copy-button4, #copy-button5,
+ #copy-button6, #copy-button7, #copy-button8, #copy-button9, #copy-button10,
+  #copy-button11, #copy-button12, #copy-button13, #copy-button14, #copy-button15,
+  #copy-button16, #copy-button17, #copy-button18, #copy-button19, #copy-button20
+  , #copy-button21, #copy-button22{
+    background: transparent;
+    border-radius: 5px;
+    padding: 0.5%;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+
+#copy-button:hover ,#copy-button1:hover, #copy-button2:hover, #copy-button3:hover,
+#copy-button4:hover, #copy-button5:hover, #copy-button6:hover, #copy-button7:hover,
+ #copy-button8:hover, #copy-button9:hover, #copy-button10:hover, #copy-button11:hover,
+  #copy-button12:hover, #copy-button13:hover, #copy-button14:hover, #copy-button15:hover,
+   #copy-button16:hover, #copy-button17:hover, #copy-button18:hover, #copy-button19:hover
+   , #copy-button20:hover, #copy-button21:hover, #copy-button22:hover{
+    background: rgb(189, 188, 188);
+    transition: 1s;
+    opacity: 100%;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
 /* Index */
 
 #banner{
@@ -193,42 +228,7 @@ footer{
     font-size: 26px;
 }
 
-#copy-button, #copy-button1, #copy-button2, #copy-button3, #copy-button4, #copy-button5,
- #copy-button6, #copy-button7, #copy-button8, #copy-button9, #copy-button10,
-  #copy-button11, #copy-button12, #copy-button13, #copy-button14, #copy-button15,
-  #copy-button16, #copy-button17, #copy-button18, #copy-button19, #copy-button20
-  , #copy-button21, #copy-button22{
-    background: transparent;
-    border-radius: 5px;
-    padding: 0.5%;
-    transition: 1s;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    cursor: pointer;
-}
-
-#copy-button:hover ,#copy-button1:hover, #copy-button2:hover, #copy-button3:hover,
-#copy-button4:hover, #copy-button5:hover, #copy-button6:hover, #copy-button7:hover,
- #copy-button8:hover, #copy-button9:hover, #copy-button10:hover, #copy-button11:hover,
-  #copy-button12:hover, #copy-button13:hover, #copy-button14:hover, #copy-button15:hover,
-   #copy-button16:hover, #copy-button17:hover, #copy-button18:hover, #copy-button19:hover
-   , #copy-button20:hover, #copy-button21:hover, #copy-button22:hover{
-    background: rgb(189, 188, 188);
-    transition: 1s;
-    opacity: 100%;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
-}
-
-#linkedindiv {
+#linkedindiv, #githubdiv {
     background-color: wheat;
     border-radius: 10px;
     display: inline-block;
@@ -244,20 +244,6 @@ footer{
 
 #linkedindiv:hover {
     border: rgb(82, 82, 234) 10px solid;
-}
-
-#githubdiv {
-    background-color: wheat;
-    border-radius: 10px;
-    display: inline-block;
-    padding: 5%;
-    border: gray solid 5px;
-    width: 50%;
-    transition: border 0.3s;
-    -webkit-transition: border 0.3s;
-    -moz-transition: border 0.3s;
-    -ms-transition: border 0.3s;
-    -o-transition: border 0.3s;
 }
 
 #githubdiv:hover {
@@ -304,6 +290,13 @@ footer{
     text-align: left;
 }
 
+#nbediv{
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 60%;
+}
+
 #hrFin{
     width: 60%;
     color: gray;
@@ -335,13 +328,6 @@ footer{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-}
-
-#nbediv{
-    display: inline-flex;
-    justify-content: space-between;
-    gap: 20px;
-    width: 60%;
 }
 
 #instapayLogo {
