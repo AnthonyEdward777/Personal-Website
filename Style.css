@@ -187,11 +187,11 @@ footer{
 }
 
 :root{
-    --clr-1:#FF6F61;
+    --clr-1:#DC143C;
     --clr-2:#FFCBA4;
-    --clr-3:#FFD700;
+    --clr-3:#FF6347;
     --clr-4:#98FF98;
-    --clr-5:#E6E6FA;
+    --clr-5:#FFD700;
 }
 
 .card{
@@ -218,11 +218,11 @@ footer{
     background:
     conic-gradient(
         from var(--gradient-angle),
-        var(--clr-3),
-        var(--clr-1),
-        var(--clr-5),
-        var(--clr-1),
-        var(--clr-3));
+        rgb(244, 107, 107),
+        orange,
+        rgb(249, 249, 107),
+        rgb(102, 255, 102),
+        rgb(116, 116, 233));
     border-radius: inherit;
     -webkit-border-radius: inherit;
     -moz-border-radius: inherit;
