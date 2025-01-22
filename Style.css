@@ -94,11 +94,6 @@ div{
     margin: 3%;
 }
 
-h1{
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
 footer{
     margin-top: 10%;
 }
@@ -106,6 +101,7 @@ footer{
 #p-footer{
     margin-top: 1%;
 }
+
 /* Index */
 
 #banner{
@@ -123,8 +119,13 @@ footer{
 }
 
 #p-desc{
-    margin-top: 12%;
+    margin-top: 10.5%;
     padding-right: 10%;
+}
+
+#HomeH1{
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /* aboutMe */
@@ -143,4 +144,15 @@ footer{
 #p-aboutMe{
     text-align: justify;
     line-height: 35px;
+}
+
+/* Pay Me */
+
+.bankIMG{
+    float:left;
+}
+
+.banks{
+    padding-right: 10%;
+    text-align: justify;
 }
