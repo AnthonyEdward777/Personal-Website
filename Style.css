@@ -289,6 +289,13 @@ footer{
     -o-border-radius: 10px;
 }
 
+#nbediv{
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 60%;
+}
+
 #instapayLogo {
     width: auto;
     height: auto;
