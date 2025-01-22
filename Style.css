@@ -195,7 +195,9 @@ footer{
 
 #copy-button, #copy-button1, #copy-button2, #copy-button3, #copy-button4, #copy-button5,
  #copy-button6, #copy-button7, #copy-button8, #copy-button9, #copy-button10,
-  #copy-button11, #copy-button12{
+  #copy-button11, #copy-button12, #copy-button13, #copy-button14, #copy-button15,
+  #copy-button16, #copy-button17, #copy-button18, #copy-button19, #copy-button20
+  , #copy-button21, #copy-button22{
     background: transparent;
     border-radius: 5px;
     padding: 0.5%;
@@ -214,7 +216,9 @@ footer{
 #copy-button:hover ,#copy-button1:hover, #copy-button2:hover, #copy-button3:hover,
 #copy-button4:hover, #copy-button5:hover, #copy-button6:hover, #copy-button7:hover,
  #copy-button8:hover, #copy-button9:hover, #copy-button10:hover, #copy-button11:hover,
-  #copy-button12:hover{
+  #copy-button12:hover, #copy-button13:hover, #copy-button14:hover, #copy-button15:hover,
+   #copy-button16:hover, #copy-button17:hover, #copy-button18:hover, #copy-button19:hover
+   , #copy-button20:hover, #copy-button21:hover, #copy-button22:hover{
     background: rgb(189, 188, 188);
     transition: 1s;
     opacity: 100%;
