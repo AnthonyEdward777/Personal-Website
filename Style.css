@@ -9,7 +9,6 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    color: white;
 }
 
 header{
@@ -96,6 +95,7 @@ header nav a{
 div{
     display: inline-block;
     margin: 1.5%;
+    color: white;
 }
 
 footer{
@@ -104,6 +104,7 @@ footer{
 
 #p-footer{
     margin-top: 1%;
+    color: white;
 }
 
 /* Index */
@@ -130,6 +131,7 @@ footer{
 #HomeH1{
     margin-left: 10%;
     margin-right: 10%;
+    color: white;
 }
 
 /* aboutMe */
@@ -152,6 +154,7 @@ footer{
 
 #p-aboutMe2{
     margin-top: 2%;
+    color: white;
 }
 
 /* Links */
@@ -208,8 +211,18 @@ footer{
 
 /* Pay Me */
 
-#bankCont{
+.bankCont{
     margin-top: 3%;
+    border: black 5px solid;
+    background-color: wheat;
+    color: black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 2%;
+    display: inline-block;
 }
 
 .bankIMG{
@@ -229,14 +242,16 @@ footer{
 
 #h1pay{
     margin-top: 3%;
+    color: white;
 }
 
 #finServ {
     display: flex;
-    justify-content: center; /* Center the items */
-    align-items: flex-start; /* Align items at the top */
-    flex-wrap: wrap; /* Allow wrapping if items don't fit in one row */
-    gap: 20px; /* Add consistent spacing between items */
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: white;
 }
 
 
@@ -253,8 +268,8 @@ footer{
 }
 
 #instapayLogo {
-    width: auto; /* Keep the rectangle aspect ratio */
-    height: auto; /* Ensure it resizes proportionally */
-    border-radius: 10px; /* Rounded edges */
-    object-fit: cover; /* Ensures content fills properly */
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
 }
