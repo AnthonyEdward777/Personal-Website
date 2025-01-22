@@ -91,7 +91,6 @@ header nav a{
 
 div{
     display: inline-block;
-    margin: 3%;
 }
 
 footer{
@@ -146,6 +145,10 @@ footer{
     line-height: 35px;
 }
 
+#p-aboutMe2{
+    margin-top: 2%;
+}
+
 /* Pay Me */
 
 .bankIMG{
@@ -156,3 +159,25 @@ footer{
     padding-right: 10%;
     text-align: justify;
 }
+
+#finServ {
+    display: flex;
+    justify-content: center; /* Center the items */
+    align-items: flex-start; /* Align items at the top */
+    flex-wrap: wrap; /* Allow wrapping if items don't fit in one row */
+    gap: 20px; /* Add consistent spacing between items */
+}
+
+
+.finPics {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
