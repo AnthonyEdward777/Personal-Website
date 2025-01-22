@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); 
 
+@property --gradient-angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes rotation {
+    0%   {--gradient-angle: 0deg}
+    100% {--gradient-angle: 360deg}
+}
+
 body{
     background-color: rgb(45, 45, 48);
 }
@@ -167,13 +178,50 @@ footer{
 /* Index */
 
 #banner{
-    margin-top: 2%;
     border: transparent;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+:root{
+    --clr-1:#FF6F61;
+    --clr-2:#FFCBA4;
+    --clr-3:#FFD700;
+    --clr-4:#98FF98;
+    --clr-5:#E6E6FA;
+}
+
+.card{
+    margin-top: 3%;
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: inline-block;
+}
+
+.card::after{
+    filter: blur(3.5rem);
+    -webkit-filter: blur(3.5rem);
+}
+
+.card::before, .card::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background:        conic-gradient(            from var(--gradient-angle),            var(--clr-3),            var(--clr-1),            var(--clr-5),            var(--clr-1),            var(--clr-3));
+    border-radius: inherit;
+    -webkit-border-radius: inherit;
+    -moz-border-radius: inherit;
+    -ms-border-radius: inherit;
+    -o-border-radius: inherit;
+    animation: rotation 4s linear infinite;
+    -webkit-animation: rotation 4s linear infinite;
 }
 
 #anthonyLogoIMG{
@@ -202,6 +250,7 @@ footer{
     -o-border-radius: 10px;
     margin-right: 3%;
     margin-top: 3%;
+    position: relative;
 }
 
 #p-aboutMe{
@@ -212,6 +261,34 @@ footer{
 #p-aboutMe2{
     margin-top: 2%;
     color: white;
+}
+
+/*My Work*/
+
+.projButton{
+    background: transparent;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+    padding: 1%;
+    color: black;
+}
+
+.projButton:hover{
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+    background: rgb(174, 174, 174);
+    opacity: 100%;
 }
 
 /* Links */
