@@ -215,7 +215,14 @@ footer{
     position: absolute;
     inset: 0;
     z-index: -1;
-    background:        conic-gradient(            from var(--gradient-angle),            var(--clr-3),            var(--clr-1),            var(--clr-5),            var(--clr-1),            var(--clr-3));
+    background: 
+    conic-gradient(
+        from var(--gradient-angle),
+        var(--clr-3),
+        var(--clr-1),
+        var(--clr-5),
+        var(--clr-1),
+        var(--clr-3));
     border-radius: inherit;
     -webkit-border-radius: inherit;
     -moz-border-radius: inherit;
