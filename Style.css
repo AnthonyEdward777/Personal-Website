@@ -102,6 +102,11 @@ footer{
     margin-top: 1%;
 }
 
+hr{
+    width: 60%;
+    color: gray;
+}
+
 /* Index */
 
 #banner{
@@ -152,6 +157,10 @@ footer{
 
 /* Pay Me */
 
+#bankCont{
+    margin-top: 3%;
+}
+
 .bankIMG{
     float:left;
 }
@@ -159,6 +168,10 @@ footer{
 .banks{
     padding-right: 10%;
     text-align: justify;
+}
+
+#h1pay{
+    margin-top: 3%;
 }
 
 #finServ {
