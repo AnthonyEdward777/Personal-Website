@@ -182,6 +182,7 @@ footer{
 /* Links */
 
 #contactdiv{
+    display: inline-flex;
     background-color: wheat;
     border-radius: 10px;
     display: inline-block;
@@ -190,6 +191,54 @@ footer{
     width: 50%;
     color: black;
     font-size: 28px;
+}
+
+#copy-button{
+    background: transparent;
+    border-radius: 5px;
+    padding: 0.5%;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#copy-button1{
+    background: transparent;
+    border-radius: 5px;
+    padding: 0.5%;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#copy-button:hover{
+    background: gray;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+#copy-button1:hover{
+    background: gray;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
 }
 
 #linkedindiv {

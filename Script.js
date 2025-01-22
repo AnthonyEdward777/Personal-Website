@@ -6,3 +6,16 @@ document.addEventListener('scroll', () =>{
         header.classList.remove("scrolled");
     }
 })
+
+var copybutton = document.getElementById("copy-button");
+var copybutton1 = document.getElementById("copy-button1");
+var link = document.getElementById("email");
+var phone = document.getElementById("phone");
+
+copybutton.onclick = function(){
+    navigator.clipboard.writeText("eng.anthonyedward@gmail.com");
+}
+
+copybutton1.onclick = function(){
+    navigator.clipboard.writeText("+201222409650")
+}
