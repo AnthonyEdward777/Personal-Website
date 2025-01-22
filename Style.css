@@ -91,6 +91,7 @@ header nav a{
 
 div{
     display: inline-block;
+    margin: 1.5%;
 }
 
 footer{
@@ -170,8 +171,8 @@ footer{
 
 
 .finPics {
-    width: 200px;
-    height: 200px;
+    width: 130px;
+    height: 130px;
     object-fit: contain;
     margin: 10px;
     border-radius: 10px;
@@ -181,3 +182,9 @@ footer{
     -o-border-radius: 10px;
 }
 
+#instapayLogo {
+    width: auto; /* Keep the rectangle aspect ratio */
+    height: auto; /* Ensure it resizes proportionally */
+    border-radius: 10px; /* Rounded edges */
+    object-fit: cover; /* Ensures content fills properly */
+}
