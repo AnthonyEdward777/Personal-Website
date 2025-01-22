@@ -316,7 +316,7 @@ footer{
     background-color: wheat;
     border-radius: 10px;
     display: inline-block;
-    padding: 5%;
+    padding: 2%;
     border: gray solid 5px;
     width: 50%;
     color: black;
@@ -326,8 +326,12 @@ footer{
 #linkedindiv, #githubdiv {
     background-color: wheat;
     border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
     display: inline-block;
-    padding: 5%;
+    padding: 2%;
     border: gray solid 5px;
     width: 50%;
     transition: border 0.3s;
