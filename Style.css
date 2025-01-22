@@ -181,6 +181,17 @@ footer{
 
 /* Links */
 
+#contactdiv{
+    background-color: wheat;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5%;
+    border: gray solid 5px;
+    width: 50%;
+    color: black;
+    font-size: 28px;
+}
+
 #linkedindiv {
     background-color: wheat;
     border-radius: 10px;
