@@ -397,8 +397,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 20px;
+    flex-wrap: nowrap;
+    gap: 10px;
     color: white;
 }
 
@@ -406,7 +406,7 @@ footer{
 .finPics {
     width: 130px;
     height: 130px;
-    object-fit: contain;
+    object-fit:cover;
     margin: 10px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
