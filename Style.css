@@ -102,11 +102,6 @@ footer{
     margin-top: 1%;
 }
 
-hr{
-    width: 60%;
-    color: gray;
-}
-
 /* Index */
 
 #banner{
@@ -169,6 +164,12 @@ hr{
     padding-right: 10%;
     text-align: justify;
 }
+
+#hrFin{
+    width: 60%;
+    color: gray;
+}
+
 
 #h1pay{
     margin-top: 3%;
