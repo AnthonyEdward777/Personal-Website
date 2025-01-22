@@ -193,7 +193,7 @@ footer{
     font-size: 28px;
 }
 
-#copy-button, #copy-button1, #copy-button2, #copy-button3{
+#copy-button, #copy-button1, #copy-button2, #copy-button3, #copy-button4, #copy-button5, #copy-button6{
     background: transparent;
     border-radius: 5px;
     padding: 0.5%;
@@ -209,7 +209,7 @@ footer{
     cursor: pointer;
 }
 
-#copy-button:hover ,#copy-button1:hover, #copy-button2:hover, #copy-button3:hover{
+#copy-button:hover ,#copy-button1:hover, #copy-button2:hover, #copy-button3:hover, #copy-button4:hover, #copy-button5:hover, #copy-button6:hover{
     background: rgb(189, 188, 188);
     transition: 1s;
     opacity: 100%;
@@ -292,7 +292,7 @@ footer{
 
 .banks{
     padding-right: 10%;
-    text-align: justify;
+    text-align: left;
 }
 
 #hrFin{
