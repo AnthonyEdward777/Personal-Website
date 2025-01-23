@@ -140,11 +140,7 @@ footer{
     color: white;
 }
 
-#copy-button, #copy-button1, #copy-button2, #copy-button3, #copy-button4, #copy-button5,
- #copy-button6, #copy-button7, #copy-button8, #copy-button9, #copy-button10,
-  #copy-button11, #copy-button12, #copy-button13, #copy-button14, #copy-button15,
-  #copy-button16, #copy-button17, #copy-button18, #copy-button19, #copy-button20
-  , #copy-button21, #copy-button22{
+.copyme{
     background: transparent;
     border-radius: 5px;
     padding: 0.5%;
@@ -160,12 +156,7 @@ footer{
     cursor: pointer;
 }
 
-/* #copy-button:before, #copy-button1:before, #copy-button2:before, #copy-button3:before,
-#copy-button4:before, #copy-button5:before, #copy-button6:before, #copy-button7:before,
-#copy-button8:before, #copy-button9:before, #copy-button10:before, #copy-button11:before,
-#copy-button12:before, #copy-button13:before, #copy-button14:before, #copy-button15:before,
-#copy-button16:before, #copy-button17:before, #copy-button18:before, #copy-button19:before,
-#copy-button20:before, #copy-button21:before, #copy-button22:before{
+/* .copyme:before{
     content: "copied";
     position: absolute;
     top: -50px;
@@ -178,14 +169,9 @@ footer{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     font-size: 15px;
-}
+} */
 
-#copy-button:after, #copy-button1:after, #copy-button2:after, #copy-button3:after,
-#copy-button4:after, #copy-button5:after, #copy-button6:after, #copy-button7:after,
-#copy-button8:after, #copy-button9:after, #copy-button10:after, #copy-button11:after,
-#copy-button12:after, #copy-button13:after, #copy-button14:after, #copy-button15:after,
-#copy-button16:after, #copy-button17:after, #copy-button18:after, #copy-button19:after,
-#copy-button20:after, #copy-button21:after, #copy-button22:after{
+/* .copyme:after{
     content: '';
     position: absolute;
     top:- 20px;
@@ -199,23 +185,13 @@ footer{
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     display: none;
-}
+} */
 
-#copy-button:active, #copy-button1:active, #copy-button2:active, #copy-button3:active,
-#copy-button4:active, #copy-button5:active, #copy-button6:active, #copy-button7:active,
-#copy-button8:active, #copy-button9:active, #copy-button10:active, #copy-button11:active,
-#copy-button12:active, #copy-button13:active, #copy-button14:active, #copy-button15:active,
-#copy-button16:active, #copy-button17:active, #copy-button18:active, #copy-button19:active,
-#copy-button20:active, #copy-button21:active, #copy-button22:active{
+.copyme:active{
     background-color: rgb(225, 223, 223);
-  } */
+  }
 
-#copy-button:hover ,#copy-button1:hover, #copy-button2:hover, #copy-button3:hover,
-#copy-button4:hover, #copy-button5:hover, #copy-button6:hover, #copy-button7:hover,
- #copy-button8:hover, #copy-button9:hover, #copy-button10:hover, #copy-button11:hover,
-  #copy-button12:hover, #copy-button13:hover, #copy-button14:hover, #copy-button15:hover,
-   #copy-button16:hover, #copy-button17:hover, #copy-button18:hover, #copy-button19:hover
-   , #copy-button20:hover, #copy-button21:hover, #copy-button22:hover{
+.copyme:hover{
     background: rgb(189, 188, 188);
     transition: 1s;
     opacity: 100%;
