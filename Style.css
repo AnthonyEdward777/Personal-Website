@@ -187,9 +187,9 @@ footer{
     display: none;
 } */
 
-.copyme:active{
-    background-color: rgb(225, 223, 223);
-  }
+/* .copyme:active{
+    background-color: red;
+  } */
 
 .copyme:hover{
     background: rgb(189, 188, 188);
@@ -271,6 +271,7 @@ footer{
     margin-left: 10%;
     margin-right: 10%;
     color: white;
+
 }
 
 /* aboutMe */
