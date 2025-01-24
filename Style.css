@@ -383,12 +383,6 @@ footer{
     display: flex;
 }
 
-@media (max-width: 1000px) {
-    #workAll{
-        flex-wrap: wrap;
-    }
-}
-
 .projButton:hover{
     transition: 0.6s;
     -webkit-transition: 0.6s;
@@ -405,16 +399,16 @@ footer{
     display: inline-flex;
     background-color: wheat;
     border-radius: 0.625rem;
+    -webkit-border-radius: 0.625rem;
+    -moz-border-radius: 0.625rem;
+    -ms-border-radius: 0.625rem;
+    -o-border-radius: 0.625rem;
     display: inline-block;
     padding: 2%;
     border: gray solid 0.3125rem;
     width: 50%;
     color: black;
     font-size: 1.625rem;
-    -webkit-border-radius: 0.625rem;
-    -moz-border-radius: 0.625rem;
-    -ms-border-radius: 0.625rem;
-    -o-border-radius: 0.625rem;
 }
 
 #linkedindiv, #githubdiv {
@@ -524,6 +518,22 @@ footer{
         display: flex;
         flex-wrap: wrap;
         width: 90%;
+    }
+
+    #workAll{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #contactdiv{
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    #HomeH1{
+        font-size: 1.3rem;
     }
 }
 
