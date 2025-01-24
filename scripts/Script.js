@@ -19,3 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
         navigator.clipboard.writeText("+201222409650");
     }
 });
+
+document.querySelector('.menu-toggle').addEventListener('click', function() {
+    document.querySelector('.navbar').classList.toggle('active');
+});

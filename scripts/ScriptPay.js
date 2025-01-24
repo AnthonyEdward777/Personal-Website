@@ -7,6 +7,10 @@ document.addEventListener('scroll', () =>{
     }
 })
 
+document.querySelector('.menu-toggle').addEventListener('click', function() {
+    document.querySelector('.navbar').classList.toggle('active');
+});
+
 document.addEventListener("DOMContentLoaded", function() {
     var copybutton2 = document.getElementById("copy-button2");
     var copybutton3 = document.getElementById("copy-button3");

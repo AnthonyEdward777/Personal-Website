@@ -15,14 +15,14 @@ body{
     background-color: rgb(45, 45, 48);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 
-header{
+header {
     position: sticky;
     top: 0;
     left: 0;
@@ -40,29 +40,34 @@ header{
     -o-transition: background-color 0.4s ease-in-out;
 }
 
-header.scrolled{
+header.scrolled {
     background-color: black;
     opacity: 0.98;
 }
 
-header.scrolled nav a{
+header.scrolled nav a {
     color: white;
 }
 
-header nav a{
+header nav {
+    display: flex;
+    gap: 2.5rem;
+}
+
+header nav a {
     text-decoration: none;
     color: white;
     font-size: 1.125rem;
 }
 
-.logo{
+.logo {
     font-size: 2rem;
     color: white;
     text-decoration: none;
     font-weight: 700;
     background: transparent;
     transition: 0.3s;
-    -webkit-transition: 1s;
+    -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
@@ -74,7 +79,7 @@ header nav a{
     padding: 0.4%;
 }
 
-.logo:hover{
+.logo:hover {
     background: rgb(63, 63, 63);
     opacity: 100%;
     transition: 1s;
@@ -84,14 +89,12 @@ header nav a{
     -o-transition: 1s;
 }
 
-.navbar a{
+.navbar a {
     position: relative;
     font-size: 1.125rem;
     color: white;
     font-weight: 500;
     text-decoration: none;
-    margin-left: 2.5rem;
-    width: 0%;
     transition: 0.3s;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
@@ -99,15 +102,8 @@ header nav a{
     -o-transition: 0.3s;
 }
 
-.navbar a:hover{
-    content: '';
-    position: sticky;
-    top: 100%;
-    left: 0;
-    width: 0;
-    height: 0.125rem;
+.navbar a:hover {
     background: rgb(90, 90, 90);
-    transition: 0.3s;
     padding: 0.3125rem;
     border-radius: 0.625rem;
     -webkit-border-radius: 0.625rem;
@@ -115,14 +111,70 @@ header nav a{
     -ms-border-radius: 0.625rem;
     -o-border-radius: 0.625rem;
     font-weight: 600;
+    transition: 0.3s;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
 }
 
-.navbar a:hover::before{
-    width: 100%;
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.menu-toggle:hover{
+    background: rgb(90, 90, 90);
+    padding: 0.3125rem;
+    border-radius: 0.625rem;
+    -webkit-border-radius: 0.625rem;
+    -moz-border-radius: 0.625rem;
+    -ms-border-radius: 0.625rem;
+    -o-border-radius: 0.625rem;
+    font-weight: 600;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+@media (max-width: 1400px) {
+    .navbar {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: black;
+        padding: 1rem;
+        text-align: center;
+        border-radius: 0.625rem;
+        -webkit-border-radius: 0.625rem;
+        -moz-border-radius: 0.625rem;
+        -ms-border-radius: 0.625rem;
+        -o-border-radius: 0.625rem;
+        opacity: 0;
+        transition: opacity all 0.5s ease-in;
+        -webkit-transition: opacity all 0.5s ease-in;
+        -moz-transition: opacity all 0.5s ease-in;
+        -ms-transition: opacity all 0.5s ease-in;
+        -o-transition: opacity all 0.5s ease-in;
+}
+
+    .navbar.active {
+        display: flex;
+        opacity: 1;
+}
+
+    .menu-toggle {
+        display: block;
+    }
 }
 
 div{
@@ -210,44 +262,6 @@ footer{
     --clr-4:#98FF98;
     --clr-5:#FFD700;
 }
-
-/* .card{
-    margin-top: 3%;
-    position: relative;
-    border-radius: 0.625rem;
-    -webkit-border-radius: 0.625rem;
-    -moz-border-radius: 0.625rem;
-    -ms-border-radius: 0.625rem;
-    -o-border-radius: 0.625rem;
-    display: inline-block;
-}
-
-.card::after{
-    filter: blur(3.5rem);
-    -webkit-filter: blur(3.5rem);
-}
-
-.card::before, .card::after{
-    content: '';
-    position: absolute;
-    inset: -0.5rem;
-    z-index: -1;
-    background:
-    conic-gradient(
-        from var(--gradient-angle),
-        rgb(244, 107, 107),
-        orange,
-        rgb(249, 249, 107),
-        rgb(102, 255, 102),
-        rgb(116, 116, 233));
-    border-radius: inherit;
-    -webkit-border-radius: inherit;
-    -moz-border-radius: inherit;
-    -ms-border-radius: inherit;
-    -o-border-radius: inherit;
-    animation: rotation 4s linear infinite;
-    -webkit-animation: rotation 4s linear infinite;
-} */
 
 .card {
     margin-top: 3%;
@@ -359,6 +373,16 @@ footer{
     -o-transition: 0.6s;
     padding: 1%;
     color: black;
+}
+
+#workAll{
+    display: flex;
+}
+
+@media (max-width: 1000px) {
+    #workAll{
+        flex-wrap: wrap;
+    }
 }
 
 .projButton:hover{
