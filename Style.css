@@ -167,6 +167,10 @@ header nav a {
         -o-transition: opacity all 0.5s ease-in;
 }
 
+    .logo {
+        font-size: 1.5rem;
+    }
+
     .navbar.active {
         display: flex;
         opacity: 1;
@@ -506,6 +510,23 @@ footer{
     color: white;
 }
 
+@media screen and (max-width: 1000px) {
+    #finServ {
+        flex-wrap: wrap;
+    }
+    
+    #nbediv {
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .bankCont{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    
+}
 
 .finPics {
     width: 8.125rem;
