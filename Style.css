@@ -560,6 +560,17 @@ footer{
     -o-border-radius: 0.625rem;
 }
 
+#klivvrLogo{
+    width: auto;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 0.625rem;
+    -webkit-border-radius: 0.625rem;
+    -moz-border-radius: 0.625rem;
+    -ms-border-radius: 0.625rem;
+    -o-border-radius: 0.625rem;
+}
+
 #paypalpic{
     background: transparent;
     transition: 1s;
