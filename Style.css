@@ -75,7 +75,7 @@ header nav a{
 }
 
 .logo:hover{
-    background: gray;
+    background: rgb(63, 63, 63);
     opacity: 100%;
     transition: 1s;
     -webkit-transition: 1s;
@@ -203,15 +203,6 @@ footer{
 
 /* Index */
 
-#banner{
-    border: transparent;
-    border-radius: 0.625rem;
-    -webkit-border-radius: 0.625rem;
-    -moz-border-radius: 0.625rem;
-    -ms-border-radius: 0.625rem;
-    -o-border-radius: 0.625rem;
-}
-
 :root{
     --clr-1:#DC143C;
     --clr-2:#FFCBA4;
@@ -220,7 +211,7 @@ footer{
     --clr-5:#FFD700;
 }
 
-.card{
+/* .card{
     margin-top: 3%;
     position: relative;
     border-radius: 0.625rem;
@@ -239,7 +230,7 @@ footer{
 .card::before, .card::after{
     content: '';
     position: absolute;
-    inset: 0;
+    inset: -0.5rem;
     z-index: -1;
     background:
     conic-gradient(
@@ -256,6 +247,46 @@ footer{
     -o-border-radius: inherit;
     animation: rotation 4s linear infinite;
     -webkit-animation: rotation 4s linear infinite;
+} */
+
+.card {
+    margin-top: 3%;
+    position: relative;
+    border-radius: 0.625rem;
+    display: inline-block;
+}
+
+.card::before, .card::after {
+    content: '';
+    position: absolute;
+    inset: -0.5rem;
+    z-index: -1;
+    background: conic-gradient(
+        from var(--gradient-angle, 0deg),
+        rgb(244, 107, 107),
+        orange,
+        rgb(249, 249, 107),
+        rgb(102, 255, 102),
+        rgb(116, 116, 233)
+        );
+    border-radius: inherit;
+    -webkit-border-radius: inherit;
+    -moz-border-radius: inherit;
+    -ms-border-radius: inherit;
+    -o-border-radius: inherit;
+    animation: rotation 4s linear infinite;
+    -webkit-animation: rotation 4s linear infinite;
+    filter: blur(3.5rem);
+}
+
+.card::after {
+    filter: blur(3.5rem);
+}
+
+#aboutmain {
+    background-color: rgb(88, 88, 88);
+    border-radius: 0.625rem;
+    padding: 1.25rem;
 }
 
 #anthonyLogoIMG{
@@ -263,7 +294,7 @@ footer{
 }
 
 #p-desc{
-    margin-top: 10.5%;
+    margin-top: 5%;
     padding-right: 10%;
 }
 
@@ -293,7 +324,7 @@ footer{
     -moz-border-radius: 0.625rem;
     -ms-border-radius: 0.625rem;
     -o-border-radius: 0.625rem;
-    margin: 1%;
+    margin: 3%;
     position: relative;
 }
 
@@ -303,9 +334,13 @@ footer{
     margin-top: 1%;
 }
 
-#p-aboutMe2{
-    margin-top: 2%;
-    color: white;
+.ulabout{
+    text-align: left;
+}
+
+.label{
+    text-align: left;
+    
 }
 
 /*My Work*/
