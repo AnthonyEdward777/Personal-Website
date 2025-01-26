@@ -427,6 +427,7 @@ footer{
     -moz-transition: border 0.3s;
     -ms-transition: border 0.3s;
     -o-transition: border 0.3s;
+    text-decoration: none;
 }
 
 #linkedindiv:hover {
