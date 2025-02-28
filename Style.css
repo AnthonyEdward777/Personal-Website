@@ -281,19 +281,15 @@ footer{
     z-index: -1;
     background: conic-gradient(
         from var(--gradient-angle, 0deg),
-        rgb(244, 107, 107),
-        orange,
-        rgb(249, 249, 107),
-        rgb(102, 255, 102),
-        rgb(116, 116, 233)
-        );
+        rgb(5, 5, 107),
+        rgb(37, 37, 98)        );
     border-radius: inherit;
     -webkit-border-radius: inherit;
     -moz-border-radius: inherit;
     -ms-border-radius: inherit;
     -o-border-radius: inherit;
-    animation: rotation 4s linear infinite;
-    -webkit-animation: rotation 4s linear infinite;
+    animation: rotation 15s linear infinite;
+    -webkit-animation: rotation 15s linear infinite;
     filter: blur(3.5rem);
 }
 
@@ -302,7 +298,8 @@ footer{
 }
 
 #aboutmain {
-    background-color: rgb(88, 88, 88);
+    background-color: rgb(51, 51, 51);
+    opacity: 95%;
     border-radius: 0.625rem;
     padding: 1.25rem;
 }
